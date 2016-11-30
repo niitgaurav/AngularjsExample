@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body ng-app="personApp">
+<div ng-controller="PersonController">
+<div ng-repeat="p in persons">
+{{p.id}} {{p.name}} {{p.email}}
+</div>
+</div>
+</body>
+<script type="text/javascript" 
+src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+<script type="text/javascript" src="samplecontroller.js"></script>
+</html>
